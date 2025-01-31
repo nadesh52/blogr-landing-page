@@ -42,7 +42,7 @@ const MobileNavButton = ({ title, isOpen, onMenuClick }: NavButtonProps) => {
       <button onClick={onMenuClick} className="flex items-center gap-2">
         <p className="text-lg font-medium">{title}</p>
         <Image
-          src="/assets/images/icon-arrow-dark.svg"
+          src="blogr-landing-page/assets/images/icon-arrow-dark.svg"
           height={10}
           width={10}
           alt="arrow"

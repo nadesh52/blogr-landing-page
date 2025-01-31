@@ -37,14 +37,14 @@ const TopSection = () => {
       </div>
       <div className="-right-[295px] top-[66px] order-1 desktop:absolute desktop:order-2">
         <Image
-          src="/assets/images/illustration-editor-desktop.svg"
+          src="blogr-landing-page/assets/images/illustration-editor-desktop.svg"
           height={0}
           width={925}
           alt="desktop"
           className="hidden desktop:block"
         />
         <Image
-          src="/assets/images/illustration-editor-mobile.svg"
+          src="blogr-landing-page/assets/images/illustration-editor-mobile.svg"
           height={0}
           width={406}
           alt="mobile"
