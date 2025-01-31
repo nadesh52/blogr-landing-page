@@ -13,7 +13,7 @@ const DesktopHeader = () => {
         <div className="flex w-full items-center justify-between desktop:w-auto">
           <div className="flex-shrink-0 desktop:mr-[68px]">
             <Image
-              src="blogr-landing-page/assets/images/logo.svg"
+              src="assets/images/logo.svg"
               height={0}
               width={100}
               alt="logo"
