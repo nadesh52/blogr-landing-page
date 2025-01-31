@@ -14,7 +14,7 @@ const MobileHeader = () => {
         <div className="flex w-full items-center justify-between desktop:w-auto">
           <div className="flex-shrink-0 desktop:mr-[68px]">
             <Image
-              src="blogr-landing-page/assets/images/logo.svg"
+              src="/assets/images/logo.svg"
               height={0}
               width={100}
               alt="logo"
@@ -29,14 +29,14 @@ const MobileHeader = () => {
             className="block desktop:hidden"
           >
             <Image
-              src="blogr-landing-page/assets/images/icon-close.svg"
+              src="/assets/images/icon-close.svg"
               height={0}
               width={34}
               alt="menu-icon"
               className={`${isMenuOpen ? "block" : "hidden"}`}
             />
             <Image
-              src="blogr-landing-page/assets/images/icon-hamburger.svg"
+              src="/assets/images/icon-hamburger.svg"
               height={0}
               width={34}
               alt="menu-icon"

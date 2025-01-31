@@ -13,7 +13,7 @@ const DesktopHeader = () => {
         <div className="flex w-full items-center justify-between desktop:w-auto">
           <div className="flex-shrink-0 desktop:mr-[68px]">
             <Image
-              src="blogr-landing-page/assets/images/logo.svg"
+              src="/assets/images/logo.svg"
               height={0}
               width={100}
               alt="logo"
@@ -30,8 +30,8 @@ const DesktopHeader = () => {
             <Image
               src={
                 isMenuOpen
-                  ? "blogr-landing-page/assets/images/icon-close.svg"
-                  : "blogr-landing-page/assets/images/icon-hamburger.svg"
+                  ? "/assets/images/icon-close.svg"
+                  : "/assets/images/icon-hamburger.svg"
               }
               height={0}
               width={34}
