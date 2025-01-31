@@ -6,7 +6,7 @@ const MidSection = () => {
     <div className="relative">
       <div className="absolute -top-[184px] z-10">
         <Image
-          src="/assets/images/illustration-phones.svg"
+          src="assets/images/illustration-phones.svg"
           height={0}
           width={550}
           alt="mobile"
@@ -17,7 +17,7 @@ const MidSection = () => {
         <div className="relative h-[400px] bg-pattern-cirlce bg-[580px_] bg-mobile-circle bg-no-repeat desktop:bg-[550px_] desktop:bg-desktop-circle">
           <div className="absolute -top-[69px] left-[126px]">
             <Image
-              src="/assets/images/illustration-phones.svg"
+              src="assets/images/illustration-phones.svg"
               height={0}
               width={550}
               alt="mobile"

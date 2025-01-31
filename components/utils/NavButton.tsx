@@ -43,7 +43,7 @@ const menuList =
       <button onClick={onMenuClick} className="flex items-center gap-2">
         <p className="decoration-2 group-hover:underline">{title}</p>
         <Image
-          src="/assets/images/icon-arrow-light.svg"
+          src="assets/images/icon-arrow-light.svg"
           height={10}
           width={10}
           alt="arrow"

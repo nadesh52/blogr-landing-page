@@ -7,7 +7,7 @@ const BottomSection = () => {
       <div className="relative flex flex-col items-center desktop:pt-[184px]">
         <div className="absolute -left-[280px] top-0 hidden desktop:block">
           <Image
-            src="/assets/images/illustration-laptop-desktop.svg"
+            src="assets/images/illustration-laptop-desktop.svg"
             height={0}
             width={974}
             alt="laptop"
@@ -15,7 +15,7 @@ const BottomSection = () => {
         </div>
         <div className="desktop:hidden block">
           <Image
-            src="/assets/images/illustration-laptop-mobile.svg"
+            src="assets/images/illustration-laptop-mobile.svg"
             height={0}
             width={498}
             alt="laptop"

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex flex-col items-center desktop:items-start font-ubuntu text-white desktop:w-[920px] desktop:flex-row">
         <div className="desktop:flex-0 desktop:mr-[185px] desktop:flex-shrink-0">
           <Image
-            src="/assets/images/logo.svg"
+            src="assets/images/logo.svg"
             height={0}
             width={110}
             alt="logo"
