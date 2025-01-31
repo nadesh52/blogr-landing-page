@@ -1,11 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
-  basePath: "/blogr-landing-page", // Use your repo name
-  assetPrefix: "/blogr-landing-page/",
+  output: 'export',
+  basePath: '/blogr-landing-page', // Updated repo name
+  assetPrefix: '/blogr-landing-page',
   images: {
-    unoptimized: true, // Required since Next.js optimized images need a server
+    unoptimized: true, // Fix image issues on GitHub Pages
   },
 };
 
