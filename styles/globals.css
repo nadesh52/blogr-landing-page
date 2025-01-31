@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/overpass/v16/qFda35WCmI96Ajtm83upeyoaX6QPnlo6_PPbM5qKhcc.woff2)
+      format("woff2");
+  }
+  @font-face {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKcg72j00.woff2")
+      format("woff2");
+  }
+}
+
+@layer components {
+  .font-overpass {
+    @apply font-light;
+  }
+}
+
+html {
+  font-size: 16px;
+}
