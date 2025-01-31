@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <section className="rounded-tr-[105px] bg-blue-dark-100 pt-[74px] desktop:pb-0 pb-[68px] desktop:h-96 desktop:pl-[164px] desktop:pr-[360px] desktop:pt-[77px]">
-      <div className="flex flex-col items-center justify-center font-ubuntu text-white desktop:w-[920px] desktop:flex-row">
+      <div className="flex flex-col items-center desktop:items-start font-ubuntu text-white desktop:w-[920px] desktop:flex-row">
         <div className="desktop:flex-0 desktop:mr-[185px] desktop:flex-shrink-0">
           <Image
             src="/assets/images/logo.svg"
