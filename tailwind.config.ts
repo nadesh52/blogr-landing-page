@@ -25,9 +25,9 @@ export default {
         mobile: "375px",
       },
       backgroundImage: {
-        "intro-desktop": "url('assets/images/bg-pattern-intro-desktop.svg')",
-        "intro-mobile": "url('assets/images/bg-pattern-intro-mobile.svg')",
-        "pattern-cirlce": "url('assets/images/bg-pattern-circles.svg')"
+        "intro-desktop": "url('/assets/images/bg-pattern-intro-desktop.svg')",
+        // "intro-mobile": "url('/assets/images/bg-pattern-intro-mobile.svg')",
+        // "pattern-cirlce": "url('/assets/images/bg-pattern-circles.svg')"
       },
       backgroundPosition: {
         "desktop-origin": "top -1340px left -440px",
