@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/blogr-landing-page-cdjBE5IpIo)
-- Live Site URL: [Add live site URL here](https://nadesh52.github.io/blogr-landing-page/)
+- Solution URL: [frontendmentor.io](https://www.frontendmentor.io/solutions/blogr-landing-page-cdjBE5IpIo)
+- Live Site URL: [nadesh52.github.io](https://nadesh52.github.io/blogr-landing-page/)
 
 ## Overview
 
