@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/mobile-first-css-landing-page-HsBamaNukc)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/blogr-landing-page-cdjBE5IpIo)
 - Live Site URL: [Add live site URL here](https://nadesh52.github.io/blogr-landing-page/)
 
 ## Overview
@@ -49,9 +49,9 @@ Code snippets example see below:
 {
   "backgroundPosition": {
     "desktop-origin": "top -1340px left -440px",
-    "mobile-origin": "top -250px left -320px",
-    "desktop-circle": "top -500px left -214px",
-    "mobile-circle": "top -220px left -100px"
+        "mobile-origin": "top -250px left -320px",
+        "desktop-circle": "top -504px left -210px",
+        "mobile-circle": "top -220px left -100px",
   }
 }
 ```
