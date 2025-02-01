@@ -34,7 +34,7 @@ export default {
       backgroundPosition: {
         "desktop-origin": "top -1340px left -440px",
         "mobile-origin": "top -250px left -320px",
-        "desktop-circle": "top -500px left -214px",
+        "desktop-circle": "top -504px left -210px",
         "mobile-circle": "top -220px left -100px",
       },
     },

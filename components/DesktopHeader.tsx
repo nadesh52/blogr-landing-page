@@ -1,12 +1,10 @@
 "use client";
 import { NavMenu } from "@/components/utils/NavMenu";
 import Image from "next/image";
-import React, { useState } from "react";
+import React from "react";
 import AuthButtonGroup from "./utils/AuthButtonGroup";
 
 const DesktopHeader = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
-
   return (
     <section className="hidden pb-5 pt-12 font-ubuntu text-white desktop:block desktop:pt-[61px]">
       <div className="relative flex flex-col items-center justify-between px-6 desktop:flex-row desktop:px-40">
@@ -20,24 +18,7 @@ const DesktopHeader = () => {
               className="w-[90px] desktop:w-[100px]"
             />
           </div>
-          <div className="hidden desktop:block">
-            <NavMenu />
-          </div>
-          <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="block desktop:hidden"
-          >
-            <Image
-              src={
-                isMenuOpen
-                  ? "/assets/images/icon-close.svg"
-                  : "/assets/images/icon-hamburger.svg"
-              }
-              height={0}
-              width={34}
-              alt="menu-icon"
-            />
-          </button>
+          <NavMenu />
         </div>
         <div className="relative w-fit">
           <div className="hidden desktop:block">
