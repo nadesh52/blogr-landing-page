@@ -12,7 +12,7 @@ const HomePage = () => {
     <section className="relative mx-auto max-w-screen-mobile overflow-hidden bg-white desktop:max-w-screen-desktop">
       <MobileHeader />
       <div className="w-full overflow-hidden rounded-bl-[110px] bg-gradient-to-r from-red-light-100 to-red-light-200 font-overpass">
-        <div className="h-[600px] bg-intro-mobile bg-[1324px_] bg-mobile-origin bg-no-repeat desktop:bg-[url('assets/images/bg-pattern-intro-desktop.svg')] desktop:bg-[3175px_] desktop:bg-desktop-origin">
+        <div className="h-[600px] bg-intro-mobile bg-[1324px_] bg-mobile-origin bg-no-repeat desktop:bg-[url('/blogr-landing-page/assets/images/bg-pattern-intro-desktop.svg')] desktop:bg-[3175px_] desktop:bg-desktop-origin">
           <DesktopHeader />
           <Hero />
         </div>
