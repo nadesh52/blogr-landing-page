@@ -22,7 +22,7 @@ const BottomSection = () => {
           />
         </div>
         <div className="flex w-full desktop:mt-0 mt-14 justify-center desktop:justify-end">
-          <div className="desktop:mr-44 px-10 desktop:px-0 text-center flex desktop:w-[525px] flex-col justify-end font-overpass">
+          <div className="desktop:mr-44 px-10 desktop:px-0 text-center desktop:text-left flex desktop:w-[525px] flex-col justify-end font-overpass">
             <div className="mb-[72px]">
               <h4 className="mb-[21px] text-[28px] font-semibold leading-[42px] text-blue-gray-300">
                 Free, open, simple

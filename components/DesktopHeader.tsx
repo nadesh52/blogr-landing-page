@@ -8,7 +8,7 @@ const DesktopHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   return (
-    <section className="hidden pb-5 pt-12 font-ubuntu text-white desktop:block desktop:pt-[59px]">
+    <section className="hidden pb-5 pt-12 font-ubuntu text-white desktop:block desktop:pt-[61px]">
       <div className="relative flex flex-col items-center justify-between px-6 desktop:flex-row desktop:px-40">
         <div className="flex w-full items-center justify-between desktop:w-auto">
           <div className="flex-shrink-0 desktop:mr-[68px]">

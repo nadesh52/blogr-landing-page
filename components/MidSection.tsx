@@ -13,7 +13,7 @@ const MidSection = () => {
           className="block desktop:hidden"
         />
       </div>
-      <section className="mt-[270px] h-[620px] overflow-hidden desktop:overflow-visible rounded-bl-[105px] rounded-tr-[105px] bg-gradient-to-b from-blue-gray-400 to-blue-gray-500 desktop:mt-0 desktop:h-[400px] desktop:w-full desktop:bg-gradient-to-r">
+      <section className="mt-[270px] h-[620px] overflow-hidden desktop:overflow-visible rounded-bl-[105px] rounded-tr-[105px] bg-gradient-to-b from-blue-gray-400 to-blue-gray-500 desktop:mt-[4px] desktop:h-[400px] desktop:w-full desktop:bg-gradient-to-r">
         <div className="relative h-[400px] bg-pattern-cirlce bg-[580px_] bg-mobile-circle bg-no-repeat desktop:bg-[550px_] desktop:bg-desktop-circle">
           <div className="absolute -top-[69px] left-[126px]">
             <Image
@@ -25,7 +25,7 @@ const MidSection = () => {
             />
           </div>
           <div className="flex desktop:mr-44 desktop:justify-end">
-            <div className="w-[525px] px-10 pt-[230px] text-center font-overpass text-white desktop:pt-[120px]">
+            <div className="w-[525px] px-10 pt-[230px] text-center desktop:text-left font-overpass text-white desktop:pt-[120px]">
               <h2 className="mb-[25px] text-[40px] font-normal leading-10 -tracking-[0.07rem]">
                 State of the Art Infrastructure
               </h2>
