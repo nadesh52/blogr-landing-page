@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+const isProd = process.env.NODE_ENV === "production";
+const basePath = isProd ? "/blogr-landing-page" : "";
 
 export default {
   content: [
@@ -25,9 +27,9 @@ export default {
         mobile: "375px",
       },
       backgroundImage: {
-        "intro-desktop": "url('/assets/images/bg-pattern-intro-desktop.svg')",
-        // "intro-mobile": "url('/assets/images/bg-pattern-intro-mobile.svg')",
-        // "pattern-cirlce": "url('/assets/images/bg-pattern-circles.svg')"
+        "intro-desktop": `url('${basePath}/assets/images/bg-pattern-intro-desktop.svg')`,
+        "intro-mobile": `url('${basePath}/assets/images/bg-pattern-intro-mobile.svg')`,
+        "pattern-cirlce": `url('${basePath}/assets/images/bg-pattern-circles.svg')`,
       },
       backgroundPosition: {
         "desktop-origin": "top -1340px left -440px",
